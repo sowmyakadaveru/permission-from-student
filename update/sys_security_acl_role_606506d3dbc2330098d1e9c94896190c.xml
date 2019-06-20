@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 12:55:53</sys_created_on>
+        <sys_id>606506d3dbc2330098d1e9c94896190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_367195_permissio_hod_permission.x_367195_permissio.hod_permission_user</sys_name>
+        <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+        <sys_security_acl display_value="x_367195_permissio_hod_permission">a46506d3dbc2330098d1e9c948961909</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_606506d3dbc2330098d1e9c94896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 12:55:53</sys_updated_on>
+        <sys_user_role display_value="x_367195_permissio.hod_permission_user" name="x_367195_permissio.hod_permission_user">ec65c2d3dbc2330098d1e9c9489619f3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

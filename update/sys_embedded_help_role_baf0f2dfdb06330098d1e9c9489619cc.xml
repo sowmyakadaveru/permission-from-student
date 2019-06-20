@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_367195_permissio.Std_permission" name="x_367195_permissio.Std_permission">bd80fe9fdb06330098d1e9c948961941</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 16:06:22</sys_created_on>
+        <sys_id>baf0f2dfdb06330098d1e9c9489619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bd80fe9fdb06330098d1e9c948961941</sys_name>
+        <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+        <sys_update_name>sys_embedded_help_role_baf0f2dfdb06330098d1e9c9489619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 16:06:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

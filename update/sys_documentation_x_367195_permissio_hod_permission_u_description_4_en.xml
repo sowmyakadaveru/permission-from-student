@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_description_4" label="short description" language="en" table="x_367195_permissio_hod_permission">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_description_4</element>
+            <help/>
+            <hint/>
+            <label>short description</label>
+            <language>en</language>
+            <name>x_367195_permissio_hod_permission</name>
+            <plural>short descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 13:10:53</sys_created_on>
+            <sys_id>18d8ce57dbc2330098d1e9c948961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>short description</sys_name>
+            <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+            <sys_update_name>sys_documentation_x_367195_permissio_hod_permission_u_description_4_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 13:10:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

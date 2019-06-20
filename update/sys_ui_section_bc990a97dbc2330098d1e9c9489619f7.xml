@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bc990a97dbc2330098d1e9c9489619f7" sys_domain="global" table="x_367195_permissio_hod_permission" version="3" view="HOD">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_permission_5</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 13:14:12</sys_created_on>
+            <sys_id>f4994a97dbc2330098d1e9c948961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_367195_permissio_hod_permission" sys_domain="global" view="b099c697dbc2330098d1e9c948961973">bc990a97dbc2330098d1e9c9489619f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 13:14:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_367195_permissio_hod_permission</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 13:14:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc990a97dbc2330098d1e9c9489619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_367195_permissio_hod_permission</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+            <sys_update_name>sys_ui_section_bc990a97dbc2330098d1e9c9489619f7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 13:14:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HOD" name="HOD">b099c697dbc2330098d1e9c948961973</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

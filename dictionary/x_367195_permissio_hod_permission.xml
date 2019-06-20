@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="hod permission" max_length="40" name="x_367195_permissio_hod_permission" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Name" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="issue attendence" max_length="40" name="u_boolean_6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" mandatory="true" max_length="40" name="u_department_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="ECE" sequence="1" value="ece"/>
+                <element inactive_on_update="false" label="IT" sequence="2" value="it"/>
+                <element inactive_on_update="false" label="EEE" sequence="3" value="eee"/>
+                <element inactive_on_update="false" label="CIVIL" sequence="4" value="civil"/>
+                <element inactive_on_update="false" label="MECH" sequence="5" value="mech"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="short description" mandatory="true" max_length="40" name="u_description_4" type="string"/>
+        <element label="permission" max_length="40" name="u_permission_5" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="roll number" mandatory="true" max_length="40" name="u_roll_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="16P61A05D9" sequence="0" value="16p61a05d9"/>
+                <element inactive_on_update="false" label="16P61A05D3" sequence="1" value="16p61a05d3"/>
+                <element inactive_on_update="false" label="16P61A05C2" sequence="2" value="16p61a05c2"/>
+                <element inactive_on_update="false" label="16P61A05H2" sequence="3" value="16p61a05h2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" mandatory="true" max_length="40" name="u_section_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+                <element inactive_on_update="false" label="other" sequence="4" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

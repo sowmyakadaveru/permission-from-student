@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_roll_3" label="roll number" language="en" table="x_367195_permissio_hod_permission">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_roll_3</element>
+            <help/>
+            <hint/>
+            <label>roll number</label>
+            <language>en</language>
+            <name>x_367195_permissio_hod_permission</name>
+            <plural>roll numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-20 13:10:53</sys_created_on>
+            <sys_id>98d88e57dbc2330098d1e9c9489619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>roll number</sys_name>
+            <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+            <sys_update_name>sys_documentation_x_367195_permissio_hod_permission_u_roll_3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 13:10:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

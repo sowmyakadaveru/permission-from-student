@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_department_1</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Student</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("fill the details.");
+}
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+		if ( newValue == '') {
+			return;
+		}
+		
+		var Section = g_form.getValue('u_section_2');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_section_2');
+
+		// If the the value of the Request type field is hr, add
+		// two hr choices and other to the What needed field choice list
+		if(newValue == 'cse')
+		{
+			g_form.addOption('u_section_2','a','A');
+			g_form.addOption('u_section_2','b','B');
+    		g_form.addOption('u_section_2','c','C');
+			g_form.addOption('u_section_2','d','D');
+		}
+		// If the the value of the Request type field is facilities, add
+		// two facilities choices and other to the What needed field
+		// choice list
+		if(newValue == 'ECE'){
+			g_form.addOption('u_Section_2','other','Other');
+		}
+		// If the the value of the Request type field is legal, add
+		// two legal choices and other to the What needed field
+		// choice list
+		if(newValue == 'IT'){
+			g_form.addOption('u_section_2','other','Other');
+		}
+			if(newValue == 'EEE'){
+			g_form.addOption('u_section_2','other','Other');
+		}
+		if(newValue == 'CIVIL'){
+			g_form.addOption('u_section_2','other','Other');
+		}
+		if(newValue == 'MECH'){
+			g_form.addOption('u_section_2','other','Other');
+		}
+		// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_section_2', Section);
+		}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 13:47:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>430156dbdbc2330098d1e9c948961954</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Student</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="permission" source="x_367195_permissio">99c48293dbc2330098d1e9c9489619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="permission">99c48293dbc2330098d1e9c9489619a3</sys_scope>
+        <sys_update_name>sys_script_client_430156dbdbc2330098d1e9c948961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 15:33:37</sys_updated_on>
+        <table>x_367195_permissio_hod_permission</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
